@@ -106,7 +106,7 @@ export function Topbar({ status, usage, onHome, onWatchlist, onMenuToggle, onSho
           aria-label={t('topbar.watchlists')}
         >
           <Eye size={15} />
-          <span className="hidden sm:inline">Watch</span>
+          <span className="hidden sm:inline">{t('topbar.watch')}</span>
         </button>
         <button
           onClick={() => {
@@ -146,7 +146,7 @@ export function Topbar({ status, usage, onHome, onWatchlist, onMenuToggle, onSho
           aria-label={t('topbar.getFirefoxExtension')}
         >
           <Puzzle size={15} />
-          <span className="hidden sm:inline">Extension</span>
+          <span className="hidden sm:inline">{t('topbar.extension')}</span>
         </a>
         <a
           href="https://github.com/NovaCode37/Prism-platform#api"
@@ -167,7 +167,7 @@ export function Topbar({ status, usage, onHome, onWatchlist, onMenuToggle, onSho
           aria-label={t('topbar.reportIssue')}
         >
           <AlertCircle size={15} />
-          <span className="hidden sm:inline">Report</span>
+          <span className="hidden sm:inline">{t('topbar.report')}</span>
         </a>
         <a
           href="https://github.com/NovaCode37/Prism-platform"
@@ -178,7 +178,7 @@ export function Topbar({ status, usage, onHome, onWatchlist, onMenuToggle, onSho
           aria-label={t('topbar.starOnGithub')}
         >
           <Star size={15} />
-          <span className="hidden sm:inline">Star</span>
+          <span className="hidden sm:inline">{t('topbar.star')}</span>
         </a>
         <a
           href="https://github.com/NovaCode37/Prism-platform"

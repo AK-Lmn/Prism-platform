@@ -26,7 +26,11 @@
     "starOnGithub": "Star on GitHub",
     "toggleMenu": "Przełącz menu",
     "toggleLanguage": "Zmień język",
-    "githubRepository": "Repozytorium GitHub"
+    "githubRepository": "Repozytorium GitHub",
+    "watch": "Obserwuj",
+    "extension": "Rozszerzenie",
+    "report": "Zgłoś",
+    "star": "Gwiazdka"
   },
   "sidebar": {
     "target": "Cel",
@@ -356,7 +360,22 @@
         "tooltip": "TLS, nagłówki bezpieczeństwa, Certificate Transparency, zarchiwizowane wrażliwe ścieżki."
       }
     },
-    "common": {
+    "compare": {
+    "title": "Porównanie skanów",
+    "scanA": "Skan A",
+    "scanB": "Skan B",
+    "field": "Pole",
+    "noDifferences": "Nie znaleziono różnic",
+    "back": "Wstecz",
+    "showUnchanged": "Pokaż niezmienione",
+    "added": "dodano",
+    "removed": "usunięto",
+    "changed": "zmieniono",
+    "unchanged": "bez zmian",
+    "failedToLoad": "Nie udało się załadować jednego lub obu skanów",
+    "scansNotFound": "Nie znaleziono skanów"
+  },
+  "common": {
     "yes": "Tak",
     "no": "Nie",
     "unknown": "Nieznane",

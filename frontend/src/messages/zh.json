@@ -26,7 +26,11 @@
     "starOnGithub": "Star on GitHub",
     "toggleMenu": "切换菜单",
     "toggleLanguage": "切换语言",
-    "githubRepository": "GitHub 仓库"
+    "githubRepository": "GitHub 仓库",
+    "watch": "监控",
+    "extension": "扩展",
+    "report": "反馈",
+    "star": "标星"
   },
   "sidebar": {
     "target": "目标",
@@ -298,7 +302,22 @@
       "infrastructure": { "label": "基础设施", "tooltip": "暴露的服务、开放端口、薄弱的 DNS/WHOIS 卫生、威胁情报命中。" },
       "web_security": { "label": "Web 安全", "tooltip": "TLS、安全头、证书透明度、归档的敏感路径。" }
     },
-    "common": { "yes": "是", "no": "否", "unknown": "未知", "points": "分", "moduleRetry": "点击刷新按钮重试。" },
+    "compare": {
+    "title": "扫描对比",
+    "scanA": "扫描 A",
+    "scanB": "扫描 B",
+    "field": "字段",
+    "noDifferences": "未发现差异",
+    "back": "返回",
+    "showUnchanged": "显示未更改",
+    "added": "新增",
+    "removed": "删除",
+    "changed": "变更",
+    "unchanged": "未更改",
+    "failedToLoad": "加载一个或两个扫描失败",
+    "scansNotFound": "未找到扫描"
+  },
+  "common": { "yes": "是", "no": "否", "unknown": "未知", "points": "分", "moduleRetry": "点击刷新按钮重试。" },
     "findings": { "title": "安全发现", "none": "无安全发现" },
     "whois": { "title": "WHOIS 注册信息", "registrar": "注册商", "organization": "组织", "country": "国家", "created": "创建时间", "expires": "到期时间", "emails": "邮箱", "nameServers": "域名服务器" },
     "dns": { "title": "DNS 记录" },

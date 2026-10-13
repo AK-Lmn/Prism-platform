@@ -26,7 +26,11 @@
     "starOnGithub": "Star on GitHub",
     "toggleMenu": "Toggle menu",
     "toggleLanguage": "Toggle language",
-    "githubRepository": "GitHub repository"
+    "githubRepository": "GitHub repository",
+    "watch": "Watch",
+    "extension": "Extension",
+    "report": "Report",
+    "star": "Star"
   },
   "sidebar": {
     "target": "Target",
@@ -298,7 +302,22 @@
       "infrastructure": { "label": "Infrastructure", "tooltip": "Exposed services, open ports, weak DNS/WHOIS hygiene, threat-intel hits." },
       "web_security": { "label": "Web Security", "tooltip": "TLS, security headers, certificate transparency, archived sensitive paths." }
     },
-    "common": { "yes": "Yes", "no": "No", "unknown": "Unknown", "points": "pts", "moduleRetry": "Use the refresh button to try again." },
+    "compare": {
+    "title": "Scan Comparison",
+    "scanA": "Scan A",
+    "scanB": "Scan B",
+    "field": "Field",
+    "noDifferences": "No differences found",
+    "back": "Back",
+    "showUnchanged": "Show unchanged",
+    "added": "added",
+    "removed": "removed",
+    "changed": "changed",
+    "unchanged": "unchanged",
+    "failedToLoad": "Failed to load one or both scans",
+    "scansNotFound": "Scans not found"
+  },
+  "common": { "yes": "Yes", "no": "No", "unknown": "Unknown", "points": "pts", "moduleRetry": "Use the refresh button to try again." },
     "findings": { "title": "Security Findings", "none": "No security findings" },
     "whois": { "title": "WHOIS Registration", "registrar": "Registrar", "organization": "Organization", "country": "Country", "created": "Created", "expires": "Expires", "emails": "Emails", "nameServers": "Name Servers" },
     "dns": { "title": "DNS Records" },

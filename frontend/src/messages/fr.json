@@ -26,7 +26,11 @@
     "starOnGithub": "Star on GitHub",
     "toggleMenu": "Afficher ou masquer le menu",
     "toggleLanguage": "Changer de langue",
-    "githubRepository": "Dépôt GitHub"
+    "githubRepository": "Dépôt GitHub",
+    "watch": "Surveiller",
+    "extension": "Extension",
+    "report": "Signaler",
+    "star": "Étoile"
   },
   "sidebar": {
     "target": "Cible",
@@ -176,7 +180,22 @@
       "infrastructure": { "label": "Infrastructure", "tooltip": "Services exposés, ports ouverts, mauvaise hygiène DNS/WHOIS, correspondances threat-intel." },
       "web_security": { "label": "Sécurité web", "tooltip": "TLS, en-têtes de sécurité, transparence des certificats, chemins sensibles archivés." }
     },
-    "common": { "yes": "Oui", "no": "Non", "unknown": "Inconnu", "points": "pts", "moduleRetry": "Utilisez le bouton d'actualisation pour réessayer." },
+    "compare": {
+    "title": "Comparaison de scans",
+    "scanA": "Scan A",
+    "scanB": "Scan B",
+    "field": "Champ",
+    "noDifferences": "Aucune différence trouvée",
+    "back": "Retour",
+    "showUnchanged": "Afficher les éléments inchangés",
+    "added": "ajouté",
+    "removed": "supprimé",
+    "changed": "modifié",
+    "unchanged": "inchangé",
+    "failedToLoad": "Échec du chargement d'un ou des deux scans",
+    "scansNotFound": "Scans non trouvés"
+  },
+  "common": { "yes": "Oui", "no": "Non", "unknown": "Inconnu", "points": "pts", "moduleRetry": "Utilisez le bouton d'actualisation pour réessayer." },
     "findings": { "title": "Résultats de sécurité", "none": "Aucun résultat de sécurité" },
     "whois": { "title": "Enregistrement WHOIS", "registrar": "Registraire", "organization": "Organisation", "country": "Pays", "created": "Créé", "expires": "Expire", "emails": "E-mails", "nameServers": "Serveurs de noms" },
     "dns": { "title": "Enregistrements DNS" },

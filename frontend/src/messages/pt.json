@@ -26,7 +26,11 @@
     "starOnGithub": "Star on GitHub",
     "toggleMenu": "Alternar menu",
     "toggleLanguage": "Alternar idioma",
-    "githubRepository": "Repositório do GitHub"
+    "githubRepository": "Repositório do GitHub",
+    "watch": "Monitorar",
+    "extension": "Extensão",
+    "report": "Relatar",
+    "star": "Estrela"
   },
   "sidebar": {
     "target": "Alvo",
@@ -298,7 +302,22 @@
       "infrastructure": { "label": "Infraestrutura", "tooltip": "Serviços expostos, portas abertas, higiene fraca de DNS/WHOIS, alertas de threat-intel." },
       "web_security": { "label": "Segurança web", "tooltip": "TLS, cabeçalhos de segurança, certificate transparency, caminhos sensíveis arquivados." }
     },
-    "common": { "yes": "Sim", "no": "Não", "unknown": "Desconhecido", "points": "pts", "moduleRetry": "Use o botão de atualizar para tentar novamente." },
+    "compare": {
+    "title": "Comparação de varreduras",
+    "scanA": "Varredura A",
+    "scanB": "Varredura B",
+    "field": "Campo",
+    "noDifferences": "Nenhuma diferença encontrada",
+    "back": "Voltar",
+    "showUnchanged": "Mostrar inalterados",
+    "added": "adicionado",
+    "removed": "removido",
+    "changed": "alterado",
+    "unchanged": "inalterado",
+    "failedToLoad": "Falha ao carregar uma ou ambas as varreduras",
+    "scansNotFound": "Varreduras não encontradas"
+  },
+  "common": { "yes": "Sim", "no": "Não", "unknown": "Desconhecido", "points": "pts", "moduleRetry": "Use o botão de atualizar para tentar novamente." },
     "findings": { "title": "Resultados de segurança", "none": "Nenhum resultado de segurança" },
     "whois": { "title": "Registro WHOIS", "registrar": "Registrar", "organization": "Organização", "country": "País", "created": "Criado", "expires": "Expira", "emails": "E-mails", "nameServers": "Servidores de nomes" },
     "dns": { "title": "Registros DNS" },
