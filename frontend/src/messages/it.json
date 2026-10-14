@@ -302,22 +302,7 @@
       "infrastructure": { "label": "Infrastruttura", "tooltip": "Servizi esposti, porte aperte, scarsa igiene DNS/WHOIS, segnalazioni threat-intel." },
       "web_security": { "label": "Sicurezza web", "tooltip": "TLS, header di sicurezza, certificate transparency, percorsi sensibili archiviati." }
     },
-    "compare": {
-    "title": "Confronto scansioni",
-    "scanA": "Scansione A",
-    "scanB": "Scansione B",
-    "field": "Campo",
-    "noDifferences": "Nessuna differenza trovata",
-    "back": "Indietro",
-    "showUnchanged": "Mostra invariati",
-    "added": "aggiunto",
-    "removed": "rimosso",
-    "changed": "modificato",
-    "unchanged": "invariato",
-    "failedToLoad": "Impossibile caricare una o entrambe le scansioni",
-    "scansNotFound": "Scansioni non trovate"
-  },
-  "common": { "yes": "Sì", "no": "No", "unknown": "Sconosciuto", "points": "pt", "moduleRetry": "Usa il pulsante di aggiornamento per riprovare." },
+    "common": { "yes": "Sì", "no": "No", "unknown": "Sconosciuto", "points": "pt", "moduleRetry": "Usa il pulsante di aggiornamento per riprovare." },
     "findings": { "title": "Risultati di sicurezza", "none": "Nessun risultato di sicurezza" },
     "whois": { "title": "Registrazione WHOIS", "registrar": "Registrar", "organization": "Organizzazione", "country": "Paese", "created": "Creato", "expires": "Scade", "emails": "Email", "nameServers": "Name server" },
     "dns": { "title": "Record DNS" },
@@ -378,7 +363,22 @@
     "paused": "In pausa",
     "failedToToggle": "Impossibile aggiornare la lista"
   },
-    "common": {
+  "compare": {
+    "title": "Confronto scansioni",
+    "scanA": "Scansione A",
+    "scanB": "Scansione B",
+    "field": "Campo",
+    "noDifferences": "Nessuna differenza trovata",
+    "back": "Indietro",
+    "showUnchanged": "Mostra invariati",
+    "added": "aggiunto",
+    "removed": "rimosso",
+    "changed": "modificato",
+    "unchanged": "invariato",
+    "failedToLoad": "Impossibile caricare una o entrambe le scansioni",
+    "scansNotFound": "Scansioni non trovate"
+  },
+  "common": {
     "copy": "Copia",
     "copied": "Copiato!",
     "copyFailed": "Copia non riuscita",

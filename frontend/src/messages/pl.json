@@ -360,22 +360,7 @@
         "tooltip": "TLS, nagłówki bezpieczeństwa, Certificate Transparency, zarchiwizowane wrażliwe ścieżki."
       }
     },
-    "compare": {
-    "title": "Porównanie skanów",
-    "scanA": "Skan A",
-    "scanB": "Skan B",
-    "field": "Pole",
-    "noDifferences": "Nie znaleziono różnic",
-    "back": "Wstecz",
-    "showUnchanged": "Pokaż niezmienione",
-    "added": "dodano",
-    "removed": "usunięto",
-    "changed": "zmieniono",
-    "unchanged": "bez zmian",
-    "failedToLoad": "Nie udało się załadować jednego lub obu skanów",
-    "scansNotFound": "Nie znaleziono skanów"
-  },
-  "common": {
+    "common": {
     "yes": "Tak",
     "no": "Nie",
     "unknown": "Nieznane",
@@ -576,8 +561,23 @@
     "paused": "Wstrzymano",
     "failedToToggle": "Nie udało się zaktualizować listy"
   },
+  "compare": {
+    "title": "Porównanie skanów",
+    "scanA": "Skan A",
+    "scanB": "Skan B",
+    "field": "Pole",
+    "noDifferences": "Nie znaleziono różnic",
+    "back": "Wstecz",
+    "showUnchanged": "Pokaż niezmienione",
+    "added": "dodano",
+    "removed": "usunięto",
+    "changed": "zmieniono",
+    "unchanged": "bez zmian",
+    "failedToLoad": "Nie udało się załadować jednego lub obu skanów",
+    "scansNotFound": "Nie znaleziono skanów"
+  },
   "common": {
-  "copy": "Kopiuj",
+    "copy": "Kopiuj",
   "copied": "Skopiowano!",
   "copyFailed": "Kopiowanie nie powiodło się",
   "loading": "Ładowanie…",

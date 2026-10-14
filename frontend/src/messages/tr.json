@@ -302,22 +302,7 @@
       "infrastructure": { "label": "Altyapı", "tooltip": "Açığa çıkan hizmetler, açık portlar, zayıf DNS/WHOIS hijyeni, tehdit istihbaratı eşleşmeleri." },
       "web_security": { "label": "Web Güvenliği", "tooltip": "TLS, güvenlik başlıkları, sertifika şeffaflığı, arşivlenmiş hassas yollar." }
     },
-    "compare": {
-    "title": "Tarama Karşılaştırması",
-    "scanA": "Tarama A",
-    "scanB": "Tarama B",
-    "field": "Alan",
-    "noDifferences": "Fark bulunamadı",
-    "back": "Geri",
-    "showUnchanged": "Değişmeyenleri göster",
-    "added": "eklendi",
-    "removed": "kaldırıldı",
-    "changed": "değiştirildi",
-    "unchanged": "değişmedi",
-    "failedToLoad": "Taramalardan biri veya her ikisi yüklenemedi",
-    "scansNotFound": "Taramalar bulunamadı"
-  },
-  "common": { "yes": "Evet", "no": "Hayır", "unknown": "Bilinmiyor", "points": "puan", "moduleRetry": "Tekrar denemek için yenile düğmesini kullanın." },
+    "common": { "yes": "Evet", "no": "Hayır", "unknown": "Bilinmiyor", "points": "puan", "moduleRetry": "Tekrar denemek için yenile düğmesini kullanın." },
     "findings": { "title": "Güvenlik Bulguları", "none": "Güvenlik bulgusu yok" },
     "whois": { "title": "WHOIS Kaydı", "registrar": "Kayıt Kuruluşu", "organization": "Kuruluş", "country": "Ülke", "created": "Oluşturulma", "expires": "Sona erme", "emails": "E-postalar", "nameServers": "Ad Sunucuları" },
     "dns": { "title": "DNS Kayıtları" },
@@ -377,6 +362,21 @@
     "resume": "İzleme listesini sürdür",
     "paused": "Duraklatıldı",
     "failedToToggle": "İzleme listesi güncellenemedi"
+  },
+  "compare": {
+    "title": "Tarama Karşılaştırması",
+    "scanA": "Tarama A",
+    "scanB": "Tarama B",
+    "field": "Alan",
+    "noDifferences": "Fark bulunamadı",
+    "back": "Geri",
+    "showUnchanged": "Değişmeyenleri göster",
+    "added": "eklendi",
+    "removed": "kaldırıldı",
+    "changed": "değiştirildi",
+    "unchanged": "değişmedi",
+    "failedToLoad": "Taramalardan biri veya her ikisi yüklenemedi",
+    "scansNotFound": "Taramalar bulunamadı"
   },
   "common": {
     "copy": "Kopyala",
